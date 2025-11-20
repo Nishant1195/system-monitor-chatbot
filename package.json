@@ -1,6 +1,6 @@
 {
   "name": "@nishant1195/system-monitor-chatbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered CLI tool for system monitoring using Gemini AI and MCP",
   "main": "src/index.js",
   "type": "module",
