@@ -1,7 +1,7 @@
 {
-  "name": "system-monitor-ai",
+  "name": "@nishant1195/system-monitor-chatbot",
   "version": "1.0.0",
-  "description": "AI-powered CLI tool for system monitoring using MCP",
+  "description": "AI-powered CLI tool for system monitoring using Gemini AI and MCP",
   "main": "src/index.js",
   "type": "module",
   "bin": {
@@ -15,10 +15,31 @@
     "system-monitor",
     "cli",
     "mcp",
-    "gemini"
+    "gemini",
+    "chatbot",
+    "system-info",
+    "performance",
+    "monitoring",
+    "nodejs"
   ],
   "author": "nishant1195",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishant1195/system-monitor-chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nishant1195/system-monitor-chatbot/issues"
+  },
+  "homepage": "https://github.com/Nishant1195/system-monitor-chatbot#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@modelcontextprotocol/sdk": "^1.22.0",
